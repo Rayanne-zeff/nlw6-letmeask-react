@@ -1,9 +1,11 @@
+import { useEffect } from "react";
+import {FormEvent, useState} from "react";
 import { useParams } from 'react-router-dom';
-import {FormEvent, useEffect, useState} from "react";
 
 import logoImg from '../assets/images/logo.svg'
 
 import { Button } from "../Components/Button";
+import { Question } from '../Components/Question';
 import {RoomCode} from "../Components/RoomCode";
 import {useAuth} from "../hooks/useAuth";
 import {database} from "../services/firebase";
@@ -108,7 +110,7 @@ export function Room(){
             <main className='content'>
                 <div className="room-title">
                     <h1>Sala {title}</h1>
-                    {questions.length > 0 && <span>{questions.length} perguntas</span>}
+                    {questions.length > 0 && <span>{questions.length} pergunta(s)</span>}
                 </div>
 
                 <form onSubmit={handleSendQuestion}>
@@ -129,8 +131,15 @@ export function Room(){
                         <Button type="submit" disabled={!user}>Enviar pergunta</Button>
                     </div>
                 </form>
-
-                {JSON.stringify(questions)}
+                {questions.map(question =>{
+                    return (
+                        <Question
+                            key={question.id}
+                            content={question.content}
+                            author={question.author}
+                        />
+                    );
+                })}
             </main>
         </div>
 
