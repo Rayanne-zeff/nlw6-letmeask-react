@@ -1,3 +1,5 @@
+import './styles.scss';
+
 type QuestionProps = {
     content: string;
     author: {
@@ -7,9 +9,9 @@ type QuestionProps = {
 }
 
 export function Question({
-                          content,
-                          author
-                      }: QuestionProps) {
+    content,
+    author
+   }: QuestionProps) {
     return (
         <div className="question">
             <p>{content}</p>
