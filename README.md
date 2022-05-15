@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
 
-  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
+  <img src="https://img.shields.io/github/stars/Rayanne-zeff/nlw6-letmeask-react?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
 
   <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
 </p>
@@ -17,27 +17,17 @@
 <br>
 
 #💻 Projeto
-
+<hr>
 O Let Me Ask é um projeto que foi desenvolvido durante a Next Level Week #6, apresentado pela  Rocketseat durante os dias 20 a 27 de Jumho de 2021.
 
 #🔖 Layout
-
+<hr>
 Você pode visualizar o layout do projeto através do link abaixo:
 
-Layout Web
-Lembrando que você precisa ter uma conta no Figma.
+[Layout Web](https://www.figma.com/file/KkDNwDEoTwHUAVvkUMHZyP/Letmeask) lembrando que você precisa ter uma conta no Figma.
 
-# Conteúdos abordados
-
-* NextJS
-* React
-* Sass
-* Context API's
-* React hooks
-* Firebase
-* Variáveis ambiente
 ##🧪 Tecnologias Utilizadas:
-
+<hr>
 <table>
   <tr>
    <td>Projeto</td>
@@ -54,6 +44,8 @@ Lembrando que você precisa ter uma conta no Figma.
 </table>
 
 ##🚀 Instalação
+<hr>
+
 ```
 # Instando as dependências
 $ npm install
@@ -65,7 +57,15 @@ $ npm start
 # ou
 $ yarn start
 ```
-##📫 Contato em caso de dúvidas:
 
+## 📝 Licença
+<hr>
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo <a href="https://github.com/Rayanne-zeff/nlw6-letmeask-react/blob/main/LICENSE">LICENSE</a> para obter mais detalhes.
+
+
+##📫 Contato em caso de dúvidas:
+<hr>
 <text> Em caso de dúvida para utilizar pode estar entrando em contato por e-mail, que assim que possível eu esclareço as dúvidas.
 </text>
+
+
