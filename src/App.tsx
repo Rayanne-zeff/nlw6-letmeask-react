@@ -14,7 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 function App() {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <ToastContainer autoClose={3000} />
             <AuthContextProvider>
                 <switch>
