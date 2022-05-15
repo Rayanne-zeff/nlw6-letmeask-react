@@ -16,18 +16,18 @@
 
 <br>
 
-#💻 Projeto
-<hr>
+## 💻 Projeto
+
 O Let Me Ask é um projeto que foi desenvolvido durante a Next Level Week #6, apresentado pela  Rocketseat durante os dias 20 a 27 de Jumho de 2021.
 
-#🔖 Layout
-<hr>
+## 🔖 Layout
+
 Você pode visualizar o layout do projeto através do link abaixo:
 
 [Layout Web](https://www.figma.com/file/KkDNwDEoTwHUAVvkUMHZyP/Letmeask) lembrando que você precisa ter uma conta no Figma.
 
-##🧪 Tecnologias Utilizadas:
-<hr>
+## 🧪 Tecnologias Utilizadas:
+
 <table>
   <tr>
    <td>Projeto</td>
@@ -43,8 +43,8 @@ Você pode visualizar o layout do projeto através do link abaixo:
   </tr>
 </table>
 
-##🚀 Instalação
-<hr>
+## 🚀 Instalação
+
 
 ```
 # Instando as dependências
@@ -59,12 +59,13 @@ $ yarn start
 ```
 
 ## 📝 Licença
-<hr>
+
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo <a href="https://github.com/Rayanne-zeff/nlw6-letmeask-react/blob/main/LICENSE">LICENSE</a> para obter mais detalhes.
 
 
-##📫 Contato em caso de dúvidas:
-<hr>
+
+## 📫 Contato em caso de dúvidas:
+
 <text> Em caso de dúvida para utilizar pode estar entrando em contato por e-mail, que assim que possível eu esclareço as dúvidas.
 </text>
 
