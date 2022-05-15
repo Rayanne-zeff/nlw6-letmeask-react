@@ -15,7 +15,7 @@
 
 ## 💻 Projeto
 
-O Let Me Ask é um projeto que foi desenvolvido durante a Next Level Week #6, apresentado pela  Rocketseat durante os dias 20 a 27 de Jumho de 2021.
+O Let Me Ask é um projeto que foi desenvolvido durante a Next Level Week #6, apresentado pela  Rocketseat durante os dias 20 a 27 de Junho de 2021.
 
 ## 🔖 Layout
 
