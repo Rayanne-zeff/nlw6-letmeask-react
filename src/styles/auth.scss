@@ -1,51 +1,49 @@
-#page-auth{
+#page-auth {
   display: flex;
   align-items: stretch;
   height: 100vh;
 
+  aside {
+    flex: 7;
 
-aside{
-  flex: 7;
+    background: #835afd;
+    color: #FFF;
 
-  background: #835afd;
-  color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    padding: 120px 80px;
 
-  padding: 120px 80px;
+    img {
+      max-width: 320px;
+    }
 
-  img{
-    max-width: 320px;
+    strong {
+      font: 700 36px 'Poppins', sans-serif;
+      line-height: 42px;
+      margin-top: 16px;
+    }
+
+    p {
+      font-size: 24px;
+      line-height: 32px;
+      margin-top: 16px;
+      color: #f8f8f8;
+    }
   }
 
-  strong{
-    font: 700 36px 'Poppins', sans-serif;
-    line-height: 42px;
-    margin-top: 16px;
+  main {
+    flex: 8;
+
+    padding: 0 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  p{
-    font-size: 24px;
-    line-height: 32px;
-    margin-top: 16px;
-    color: #f8f8f8;
-  }
-
-}
-
-main{
-  flex: 8;
-
-  padding: 0 32px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-  .main-content{
+  .main-content {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -53,18 +51,18 @@ main{
     align-items: stretch;
     text-align: center;
 
-    >img{
+    > img {
       align-self: center;
     }
 
-    h2{
+    h2 {
       font-size: 24px;
       margin: 64px 0 24px;
       font-family: 'Poppins', sans-serif;
     }
 
-    form{
-      input{
+    form {
+      input {
         height: 50px;
         border-radius: 8px;
         padding: 0 16px;
@@ -72,28 +70,27 @@ main{
         border: 1px solid #a8a8b3;
       }
 
-      button{
+      button {
         margin-top: 16px;
       }
 
-      button, input{
+      button, input {
         width: 100%;
       }
     }
 
-
-    p{
+    p {
       font-size: 14px;
       color: #737380;
       margin-top: 16px;
 
-      a{
+      a {
         color: #e559f9;
       }
     }
   }
 
-  .create-room{
+  .create-room {
     margin-top: 64px;
     height: 50px;
     border-radius: 8px;
@@ -110,16 +107,16 @@ main{
 
     transition: filter 0.2s;
 
-    img{
+    img {
       margin-right: 8px;
     }
 
-    &:hover{
+    &:hover {
       filter: brightness(0.9);
     }
   }
 
-  .separator{
+  .separator {
     font-size: 14px;
     color: #a8a8b3;
 
@@ -127,7 +124,7 @@ main{
     display: flex;
     align-items: center;
 
-    &::before{
+    &::before {
       content: '';
       flex: 1;
       height: 1px;
@@ -135,7 +132,7 @@ main{
       margin-right: 16px;
     }
 
-    &::after{
+    &::after {
       content: '';
       flex: 1;
       height: 1px;
@@ -143,5 +140,4 @@ main{
       margin-left: 16px;
     }
   }
-
 }

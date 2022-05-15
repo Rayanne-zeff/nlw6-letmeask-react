@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="Letmeask" src=".github/logo.svg" width="160px">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=8257E5&labelColor=000000" alt="NLW Together 06" />
 
-## Available Scripts
+  <img src="https://img.shields.io/github/stars/rocketseat-education/nlw-06-reactjs?label=stars&message=MIT&color=8257E5&labelColor=000000" alt="Stars">
 
-In the project directory, you can run:
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000" alt="License">   
+</p>
 
-### `yarn start`
+<h1 align="center">
+    <img alt="Letmeask" src=".github/cover.svg" />
+</h1>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#💻 Projeto
 
-### `yarn test`
+O Let Me Ask é um projeto que foi desenvolvido durante a Next Level Week #6, apresentado pela  Rocketseat durante os dias 20 a 27 de Jumho de 2021.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#🔖 Layout
 
-### `yarn build`
+Você pode visualizar o layout do projeto através do link abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Layout Web
+Lembrando que você precisa ter uma conta no Figma.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Conteúdos abordados
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* NextJS
+* React
+* Sass
+* Context API's
+* React hooks
+* Firebase
+* Variáveis ambiente
+##🧪 Tecnologias Utilizadas:
 
-### `yarn eject`
+<table>
+  <tr>
+   <td>Projeto</td>
+   <td>Linguagem</td>
+   <td>IDE</td>
+   <td>Banco de Dados</td>
+  </tr>
+   <tr>
+   <td>React</td>
+   <td>TypeScript</td>
+   <td>WebStorm</td>
+   <td>Firebase</td>
+  </tr>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##🚀 Instalação
+```
+# Instando as dependências
+$ npm install
+# ou
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Executando a aplicação
+$ npm start
+# ou
+$ yarn start
+```
+##📫 Contato em caso de dúvidas:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<text> Em caso de dúvida para utilizar pode estar entrando em contato por e-mail, que assim que possível eu esclareço as dúvidas.
+</text>
