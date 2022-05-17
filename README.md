@@ -66,4 +66,6 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo <a href="https:
 <text> Em caso de dúvida para utilizar pode estar entrando em contato por e-mail, que assim que possível eu esclareço as dúvidas.
 </text>
 
-
+  ```
+     E-mail: gloria_zeferino@hotmail.com
+  ```
